@@ -6,7 +6,7 @@ const carBasket = [
     count: 1,
     price: 25500,
     totalPrice: 25500,
-    color: "Black",
+    color: "Black", 
     id: "n1",
     image: "./img/Camry%2070.jpeg",
   },
@@ -56,7 +56,6 @@ const renderAllItems = () => {
   wrapper.innerHTML = "";
   carBasket.map((elem) => {
     func(elem);
-    console.log(elem);
   });
 };
 
@@ -70,7 +69,6 @@ function func(el) {
   imgDeleteBlack.className = "img__delete__black";
   imgDeleteBlack.id = el.id;
   imgDeleteBlack.addEventListener("click", (event) => {
-    console.dir(event.target);
     event.target.parentElement.remove();
   });
   divOne.append(imgDeleteBlack);
