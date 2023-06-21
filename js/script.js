@@ -163,5 +163,3 @@ btnDayNight.addEventListener("click", () => {
     theme.href = "css/style.css";
   }
 });
-
-//---------------------------------------------------------------------------->
