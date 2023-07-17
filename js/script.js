@@ -6,7 +6,7 @@ const carBasket = [
     count: 1,
     price: 25500,
     totalPrice: 25500,
-    color: "Black", 
+    color: "Black",
     id: "n1",
     image: "./img/Camry%2070.jpeg",
   },
@@ -31,6 +31,17 @@ const carBasket = [
     color: "White",
     id: "n3",
     image: "./img/MERSEDES=BENZ%20S-CLASS.jpg",
+  },
+  {
+    typeData: false,
+    nameOfThing: "Chevrolet",
+    year: 2021,
+    count: 1,
+    price: 90000,
+    totalPrice: 90000,
+    color: "White",
+    id: "n4",
+    image: "./img/photo.jpg",
   },
 ];
 
